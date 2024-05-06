@@ -1,4 +1,4 @@
-public class ADecoratorNotaDePlata extends ANotaDePlata{
+public abstract class ADecoratorNotaDePlata extends ANotaDePlata{
     protected ANotaDePlata notaDePlata;
 
     public ADecoratorNotaDePlata(ANotaDePlata notaDePlata) {
