@@ -21,4 +21,8 @@ public class Salon {
     public int getNrMaxPacienti() {
         return nrMaxPacienti;
     }
+
+    public void afisareInformatii(){
+        System.out.println("Salonul " + this.denumire + " este in aripa de vest a cladirii");
+    }
 }
