@@ -5,7 +5,7 @@ public abstract class ANod {
 
     //pentru toate nodurile
     public String getInfo() {
-        return " " + this.getDenumire() + " " + this.getPret();
+        return "  " + this.getDenumire() + " " + this.getPret() + " lei.";
     }
 
     //metode specifice pentru noduri structura
