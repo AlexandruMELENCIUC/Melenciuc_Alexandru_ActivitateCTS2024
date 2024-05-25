@@ -6,7 +6,7 @@ public class Main {
         modPlata.efectueazaPlata(1350.0f);
 
         modPlata.setStrategiePlata(new PlataCash());
-        modPlata.efectueazaPlata(457.5f);
+        modPlata.efectueazaPlata(459.5f);
 
     }
 }
