@@ -3,7 +3,7 @@ public abstract class ANod {
     public abstract int getPret();
 
     public String getInfo() {
-        return " " + this.getDenumire() + " " + this.getPret();
+        return "  " + this.getDenumire() + " " + this.getPret();
     }
 
     public abstract void adaugaNod(ANod copil);
